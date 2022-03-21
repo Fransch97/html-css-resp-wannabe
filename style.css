@@ -83,7 +83,7 @@ img {
       MOBILE
   */
 
-@media (max-width:  1228px) {
+@media (max-width:  420px) {
 
 
   /*
@@ -112,7 +112,9 @@ img {
     /* background-color: red; */
   }
 
-   
+   .container{
+     padding: 0 5px;
+   }
 
 
   /* 
@@ -159,7 +161,7 @@ img {
   #why .row .first,
   #why .row .second,
   #why .row .third{
-    width: 97%;
+    width: 100%;
   }
   
   #why .row .third{
