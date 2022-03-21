@@ -83,7 +83,7 @@ img {
       MOBILE
   */
 
-@media (max-width:  420px) {
+@media (max-width:  500px) {
 
 
   /*
@@ -173,3 +173,129 @@ img {
 /* 
     END  MOBILE
   */
+
+
+
+
+  /* 
+      TABLET
+   */
+
+   @media (min-width:501px) and (max-width:  900px) {
+
+    /*
+     GENEREALS 
+    */
+    body{
+      background-color: black;
+      font-family: arial;
+    }
+    h1{
+      color: white;
+      text-transform: uppercase;
+      padding-top: 10px;
+    }
+    #lezioni h1{
+      margin-bottom: 60px;
+    }
+   
+    #lezioni .row{
+      /* background-color: red; */
+      width: 100%;
+      height: auto;
+    }
+
+    #lezioni .row .left{
+      /* background-color: #428bca; */
+      float: none;
+      width: 80%;
+      margin: 0 auto;
+      background-color: black;
+      background-color: rgb(255, 248, 220);
+      box-shadow: -6px 0px 66px white;
+      padding: 5px 5px;
+      border-radius: 20px;
+    }
+    #lezioni .row .left::after{
+      content: "";
+      display: table;
+      clear: both;
+    }
+    #lezioni .row .left img{
+      /* background-color: yellow; */
+      float: left;
+    }
+
+
+    #lezioni .row .right{
+      /* background-color: #428bca; */
+      float: none;
+      width: 80%;
+      margin: 0 auto;
+      background-color: black;
+      background-color: rgb(255, 248, 220);
+      box-shadow: -6px 0px 66px white;
+
+      /* box-shadow: 24px 31px 36px rgb(41, 213, 61); */
+
+      padding: 5px 5px;
+      margin-top: 50px;
+      border-radius: 20px;
+     
+    }
+    #lezioni .row .right::after{
+      content: "";
+      display: table;
+      clear: both;
+    }
+    #lezioni .row .right img{
+      /* background-color: yellow; */
+      float: right;
+    }
+
+
+    #steps{
+      width: 80%;
+      margin: 0 auto;
+      background-color: black;
+      color: white;
+      border-top-right-radius: 50px;
+    }
+
+    #steps .row{
+      width: 100%;
+    }
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+      width: auto;
+    }
+
+    #steps .row>.left img,
+    #steps .row>.central img,
+    #steps .row>.right img{
+      float: right;
+      padding: 10px 5px;
+    }
+
+    #why{
+      width: 80%;
+      margin: 0 auto;
+      background-color: aquamarine;
+      border-radius: 90px;
+      padding: 0 30px;
+      padding-bottom: 90px;
+      box-shadow: 0px 20px 200px rgb(255, 117, 140);
+    }
+    #why h1{
+      color: black;
+    }
+    #why .row{
+      width: auto;
+    }
+    #why .row .first,
+    #why .row .second,
+    #why .row .third{
+    width: 100%;
+  }
+  }
